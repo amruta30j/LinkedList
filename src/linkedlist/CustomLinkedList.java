@@ -9,6 +9,14 @@ public interface CustomLinkedList<T extends Comparable<T>> {
 
     void printData();
 
+    T getHeadElementData();
+
+    Node<T> insertAsAHeadNode(T data);
+
+    void removeNodeAtThisLocation(int location);
+
+    void reverseList();
+
 
 
 }
